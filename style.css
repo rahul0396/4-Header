@@ -1,0 +1,35 @@
+.container{
+    background-color: aliceblue;
+    height: 200px;
+    width: 100%;
+
+}
+.header-body{
+    background-color: aqua;
+    height: 60px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    margin: 0.7rem;
+    padding: 0.3rem;
+}
+.logo:hover{
+    background-color: rgb(57, 197, 197);
+    border-radius: 30%;
+    
+}
+.title{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.all-options{
+    /* justify-content: flex-end; */
+    /* order: 1; */
+    /* align-items: flex-end; */
+    margin-left: auto;
+}
